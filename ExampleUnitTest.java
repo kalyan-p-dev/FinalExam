@@ -72,3 +72,9 @@ public class Example {
         return data;
     }
 }
+
+//Third Part Answer  2.c
+
+// list.stream().filter(movie->!movie.getCategory().equals("Internet"))
+//                 .collect(Collectors.groupingBy(DataFile1::getTitle,Collectors.counting()))
+//                 .forEach((k,v)->System.out.println(k));
